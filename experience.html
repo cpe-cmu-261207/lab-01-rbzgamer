@@ -6,22 +6,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="./images/icon.jpg">
+    <style>
+        p {
+            font-family: 'Rajdhani', sans-serif;
+        }
+    </style>
 </head>
 
 <body class="bg-gradient-to-r from-blue-400 to-purple-300">
     <!-- Navbar -->
-    <div class="bg-white border-b-2 py-2 mb-4">
+    <div class="bg-white border-b-2 py-2">
         <div class="bg-white flex justify-center space-x-20 max-w-screen-md mx-auto">
-            <p class="font-semibold text-xl" style="color: rgb(255, 105, 180);"><a href="index.html"
-                    target="_blank">Home</a></p>
-            <p class="font-semibold text-xl" style="color: rgb(255, 105, 180);"><a href="experience.html">Experience</a>
+            <p class="font-semibold text-xl text-pink-400 hover:text-purple-400"><a href="index.html">Home</a></p>
+            <p class="font-semibold text-xl text-pink-400 hover:text-purple-400"><a
+                    href="experience.html">Experience</a>
             </p>
-            <p class="font-semibold text-xl" style="color: rgb(255, 105, 180);"><a href="contact.html"
-                    target="_blank">Contact</a></p>
+            <p class="font-semibold text-xl text-pink-400 hover:text-purple-400"><a href="contact.html">Contact</a></p>
         </div>
     </div>
-    <p class="font-semibold text-center mt-5">Copyright © 2021 autozresume.com by Ukrit Kosonsomboon</p>
+
+    <div class="mx-5 flex justify-between" style="background-image: url(./images/bg.jpg); background-size: cover;">
+        <img src="./images/me-1.png"> <img src="./images/me-2.png">
+    </div>
+
+    <div class="mx-5 mt-4">
+        <p class="font-bold text-2xl text-gray-50">My Experience</p>
+    </div>
+
+    <div class="max-w-screen-10 mx-5 grid grid-cols-4 mt-4">
+        <!-- ex 1 -->
+        <div class="bg-blue-200 px-2 mr-2 shadow-lg">
+            <div class="flex justify-center py-2 mb-4">
+                <img class="w-48 h-48 object-cover rounded-full" src="./images/ex-2.jpg">
+            </div>
+            <p class="flex justify-center text-xl px-4">The 66th National Education 4.0 Competition</p>
+        </div>
+        <!-- ex 2 -->
+        <div class="bg-blue-200 px-2 mr-2 shadow-lg">
+            <div class="flex justify-center py-2 mb-4">
+                <img class="w-48 h-48 object-cover rounded-full" src="./images/ex-3.jpg">
+            </div>
+            <p class="flex justify-center text-xl px-4">The 1st Nothern Rugby Tournament</p>
+        </div>
+        <!-- ex 3-->
+        <div class="bg-blue-200 px-2 mr-2 shadow-lg">
+            <div class="flex justify-center py-2 mb-4">
+                <img class="w-48 h-48 object-cover rounded-full" src="./images/ex-4.jpg">
+            </div>
+            <p class="flex justify-center text-xl px-4">Teamleader of Sportday</p>
+        </div>
+        <!-- ex 4 -->
+        <div class="bg-blue-200 px-2 mr-2 shadow-lg">
+            <div class="flex justify-center py-2 mb-4">
+                <img class="w-48 h-48 object-cover rounded-full" src="./images/not-tamagotji.png">
+            </div>
+            <p class="flex justify-center text-xl px-4">A Project "Non-Tamagotji" , A virtual pet simulator, aims to
+                accompany you while you work on other things in your computer. Built on SFML game engine based on c++
+            </p>
+        </div>
+    </div>
+
+    <p class="font-semibold text-center mt-5 text-gray-50">Copyright © 2021 autozresume.com by Ukrit Kosonsomboon</p>
 
 </body>
 
