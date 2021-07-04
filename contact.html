@@ -6,25 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        p {
+            font-family: 'Rajdhani', sans-serif;
+        }
+    </style>
 </head>
 
 <body class="bg-gradient-to-r from-blue-400 to-purple-300">
     <!-- Navbar -->
     <div class="bg-white border-b-2 py-2 mb-4">
         <div class="bg-white flex justify-center space-x-20 max-w-screen-md mx-auto">
-            <p class="font-semibold text-xl" style="color: rgb(255, 105, 180);"><a href="index.html"
-                    target="_blank">Home</a></p>
-            <p class="font-semibold text-xl" style="color: rgb(255, 105, 180);"><a href="experience.html"
-                    target="_blank">Experience</a></p>
-            <p class="font-semibold text-xl" style="color: rgb(255, 105, 180);"><a href="contact.html">Contact</a></p>
+            <p class="font-semibold text-xl text-pink-400 hover:text-purple-400"><a href="index.html">Home</a></p>
+            <p class="font-semibold text-xl text-pink-400 hover:text-purple-400"><a href="experience.html">Experience</a></p>
+            <p class="font-semibold text-xl text-pink-400 hover:text-purple-400"><a href="contact.html">Contact</a></p>
         </div>
     </div>
-    <a href="https://www.facebook.com/X.DeathGhoul/" target="_blank">
-        <br>
-        <h6>My FB</h6>
-    </a>
-    <p class="font-semibold text-center mt-5">Copyright © 2021 autozresume.com by Ukrit Kosonsomboon</p>
+
+
+    <div class="grid grid-cols-8 max-w-screen-2xl">
+        <div class="col-start-6 col-span-3 ">
+            <!-- image -->
+            <img class="fixed" style="z-index: -1; top:0px" src="./images/0772-2.JPG" width="573px">
+        </div>
+        <div class="bg-white shadow-lg col-start-2 col-span-4 mt-4">
+            <div class="flex p-4">
+                <!-- header and description contact -->
+                <div class="p-4">
+                    <p class="text-2xl font-semibold">Contact</p>
+                    <br>
+                    <p class="text-xl text-indigo-700">Name :</p>
+                    <p class="text-xl">Ukrit Kosonsomboon</p>
+                    <br>
+                    <p class="text-xl text-indigo-700">Nickname :</p>
+                    <p class="text-xl">Auto</p>
+                    <br>
+                    <p class="text-xl text-indigo-700">Age :</p>
+                    <p class="text-xl">19</p>
+                    <br>
+                    <p class="text-xl text-indigo-700">Address :</p>
+                    <p class="text-xl">181/7 , Phapai , Sansai , Chaingmai 50210</p>
+                    <br>
+                    <p class="text-xl text-indigo-700">Facebook :</p>
+                    <p class="text-xl text-gray-500 hover:text-blue-400"><a href="https://www.facebook.com/X.DeathGhoul/"
+                            target="_blank">https://www.facebook.com/X.DeathGhoul/</a></p>
+                    <br>
+                    <p class="text-xl text-indigo-700">E-Mail :</p>
+                    <p class="text-xl text-gray-500 hover:text-purple-400"><a
+                            href="mailto: ukrit_ko@cmu.ac.th">ukrit_ko@cmu.ac.th</a></p>
+                    <br>
+                    <p class="text-xl text-indigo-700">Phone Number :</p>
+                    <p class="text-xl">0957971700</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <p class="font-semibold text-left mt-5 text-gray-50 ml-2">Copyright © 2021 autozresume.com by Ukrit Kosonsomboon
+    </p>
 </body>
 
 </html>
