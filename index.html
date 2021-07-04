@@ -5,36 +5,46 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Autoz Resume Website</title>
+  <title>Autoz's Resume Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" href="./images/icon.jpg">
+  <style>
+    p {
+      font-family: 'Rajdhani', sans-serif;
+    }
+  </style>
 </head>
 
 <body class="bg-gradient-to-r from-blue-400 to-purple-300">
   <!-- Navbar -->
-  <div class="bg-white border-b-2 py-2 mb-4">
+  <div class="bg-white border-b-2 py-2">
     <div class="bg-white flex justify-center space-x-20 max-w-screen-md mx-auto">
-      <p class="font-semibold text-xl" style="color: rgb(255, 105, 180);"><a href="index.html">Home</a></p>
-      <p class="font-semibold text-xl" style="color: rgb(255, 105, 180);"><a href="experience.html"
-          target="_blank">Experience</a></p>
-      <p class="font-semibold text-xl" style="color: rgb(255, 105, 180);"><a href="contact.html"
-          target="_blank">Contact</a></p>
+      <p class="font-semibold text-xl text-pink-400 hover:text-purple-400"><a href="index.html">Home</a>
+      </p>
+      <p class="font-semibold text-xl text-pink-400 hover:text-purple-400"><a href="experience.html">Experience</a>
+      </p>
+      <p class="font-semibold text-xl text-pink-400 hover:text-purple-400"><a href="contact.html">Contact</a></p>
     </div>
   </div>
 
-  <div class="grid grid-cols-8 max-w-screen-2xl mx-10">
-    <div class="rounded-full col-span-3">
-      <img src="./images/0772-3.JPG" width="500px">
-    </div>
-    <div class="bg-white shadow-lg rounded-xl ring-1 ring-gray-300 col-span-5">
-      <div class="flex p-4">
+  <!-- image -->
+  <img class="fixed" style="z-index: -1; top:0px" src="./images/0772-3.JPG" width="569.5px">
 
+  <div class="grid grid-cols-8 max-w-screen-2xl">
+
+    <div class="bg-white shadow-lg col-start-4 col-span-5 mt-4">
+      <div class="flex p-4">
         <!-- header and description about me -->
         <div class="p-4 border-b-2">
           <p class="text-xl font-semibold">About Me</p>
           <br>
           <p class="text-md text-gray-600">
             Hi, my name is Ukrit Kosonsomboon. Now I'm studying at Chaingmai University. Study Computer Engineering. I
-            love anime(japan) and games. I love to play basketball. I like programming. I'm interested in network development.
+            love anime(japan) and games. I love to play basketball. I like programming. I'm interested in network
+            development.
           </p>
         </div>
       </div>
@@ -44,54 +54,68 @@
         <div class="p-4 mb-2">
           <p class="text-xl font-semibold">My Skills</p>
         </div>
-        <!-- c++ -->
-        <div class="flex bg-white max-w-screen mx-auto shadow-lg rounded-xl ring-1 ring-gray-300">
-          <div class="flex p-2">
+
+        <div class="grid grid-cols-2">
+          <!-- c++ -->
+          <div class="flex bg-white max-w-screen mx-auto shadow-lg mb-4 mr-4">
+            <div class="flex p-2">
               <img class="w-36 h-36 rounded-full" src="./images/c++.png">
               <!-- c++ description -->
               <div class="p-6">
-                  <p class="font-semibold"> C++</p> <br>
-                  <p class="text-sm text-gray-600">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium distinctio sapiente,
-                      voluptatibus praesentium non libero eum officiis? Suscipit, soluta vero.
-                  </p>
+                <p class="font-semibold"> C++</p> <br>
+                <p class="text-sm text-gray-600">
+                  I can code C++. I can make some simple programs and games from SFML (C++ external libraries).
+                </p>
               </div>
+            </div>
           </div>
-        </div>
-        <!-- basketball -->
-        <div class="flex bg-white max-w-screen mx-auto shadow-lg rounded-xl ring-1 ring-gray-300 mt-2 mb-2">
-          <div class="flex p-2">
+          <!-- basketball -->
+          <div class="flex bg-white max-w-screen mx-auto shadow-lg mb-4">
+            <div class="flex p-2">
               <img class="w-36 h-36 rounded-full" src="./images/basketball.jpeg">
               <!-- basketball description -->
               <div class="p-6">
-                  <p class="font-semibold"> Basketball </p> <br>
-                  <p class="text-sm text-gray-600">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium distinctio sapiente,
-                      voluptatibus praesentium non libero eum officiis? Suscipit, soluta vero.
-                  </p>
+                <p class="font-semibold"> Basketball </p> <br>
+                <p class="text-sm text-gray-600">
+                  I can play basketball at point-guard / power / shooter. My favorite team is Golden State Warriors. My favorite player is Stephen Curry from Golden State Warriors.
+                </p>
               </div>
+            </div>
           </div>
-        </div>
-        <!-- apex -->
-        <div class="flex bg-white max-w-screen mx-auto shadow-lg rounded-xl ring-1 ring-gray-300">
-          <div class="flex p-2">
+          <!-- music -->
+          <div class="flex bg-white max-w-screen mx-auto shadow-lg mr-4">
+            <div class="flex p-2">
+              <img class="w-36 h-36 rounded-full" src="./images/guitar.jpg">
+              <!-- music description -->
+              <div class="p-6">
+                <p class="font-semibold"> Music</p> <br>
+                <p class="text-sm text-gray-600">
+                  I can sing and play guitar. I also have a band name "Wongwian hor nalika".
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- apex -->
+          <div class="flex bg-white max-w-screen mx-auto shadow-lg">
+            <div class="flex p-2">
               <img class="w-36 h-36 rounded-full" src="./images/apex-legends.png">
               <!-- apex description -->
               <div class="p-6">
-                  <p class="font-semibold"> Apex Legends</p> <br>
-                  <p class="text-sm text-gray-600">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium distinctio sapiente,
-                      voluptatibus praesentium non libero eum officiis? Suscipit, soluta vero.
-                  </p>
+                <p class="font-semibold"> Apex Legends</p> <br>
+                <p class="text-sm text-gray-600">
+                  I have 615.9 hours of play time in Apex Legends.
+                </p>
               </div>
+            </div>
           </div>
         </div>
+
       </div>
 
     </div>
   </div>
 
-  <p class="font-semibold text-center mt-5">Copyright © 2021 autozresume.com by Ukrit Kosonsomboon</p>
+  <p class="font-semibold text-right mt-5 text-gray-50 mr-2">Copyright © 2021 autozresume.com by Ukrit Kosonsomboon</p>
 
 </body>
 
